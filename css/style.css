@@ -13,9 +13,9 @@
   --surface-color: #18181b;
   --stroke-color: #27272a;
   --text-color-primary: #f4f4f5;
-  --text-color-secundary: #a1a1aa;
+  --text-color-secondary: #a1a1aa;
   --brand-color-primary: #f6b733;
-  --brand-color-secundary: #fc4a1a;
+  --brand-color-secondary: #fc4a1a;
 
   --ff-sans: 'Inter', system-ui, sans-serif;
   --fw-base: 400;
@@ -81,6 +81,11 @@ a:hover {
 
 ul[role="list"] {
   list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
 }
 
 @media (width >= 80em) {
